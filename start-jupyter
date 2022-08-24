@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+
+# navigate to jupyter notes directory
+cd $HOME/Codes/Jupyter-notes
+
+# start virtual environment
 source env/bin/activate
 
+# start clusters for parallel computing & jupyter notebook
 ipcluster start & jupyter notebook --no-browser --autoreload --ip=0.0.0.0 && fg
