@@ -2,7 +2,7 @@
 
 
 # navigate to jupyter notes directory
-cd $HOME/Codes/Jupyter-notes
+cd $CODES/Jupyter-notes
 
 # start virtual environment
 source env/bin/activate
