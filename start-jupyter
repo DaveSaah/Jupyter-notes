@@ -2,7 +2,7 @@
 
 
 # navigate to jupyter notes directory
-cd $CODES/Jupyter-notes
+cd $HOME/Codes/Jupyter-notes
 
 # start virtual environment
 source env/bin/activate.fish
